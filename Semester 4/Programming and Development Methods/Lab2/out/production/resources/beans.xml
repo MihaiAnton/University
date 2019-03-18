@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+
+    <util:properties id="jdbcProps" location="bd.config"/>
+
+    <bean id="address" class="Address">
+        <constructor-arg value="testStreet"></constructor-arg>
+        <constructor-arg value="0"></constructor-arg>
+    </bean>
+
+    <bean id="Student" class="Student" >
+        <constructor-arg value="0"></constructor-arg>
+        <constructor-arg value="testName"></constructor-arg>
+        <constructor-arg value="testSurname"></constructor-arg>
+        <constructor-arg value="2018"></constructor-arg>
+        <constructor-arg value="0"></constructor-arg>
+        <constructor-arg ref="address"></constructor-arg>
+    </bean>
+
+    <bean id="DataBaseRepo" class="DataBaseRepo">
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+
+
+</beans>

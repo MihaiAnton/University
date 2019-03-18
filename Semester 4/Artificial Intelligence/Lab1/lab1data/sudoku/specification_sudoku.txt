@@ -1,0 +1,5 @@
+first line: sudoku dimension (n)
+second line: first row of sudoku board (n natural numbers from {0, 1, 2, .., n}, 0 means empty cell)
+third line: second row of sudoku board (n atural numbers from {0, 1, 2, .., n}, 0 means empty cell)
+...
+n+1 line: last (nth) row of sudoku board (n natural numbers from {0, 1, 2, .., n}, 0 means empty cell)

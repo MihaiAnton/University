@@ -1,0 +1,10 @@
+M:\School\SGBD\Lab1v2\Lab1v2\bin\Debug\Lab1v2.exe.config
+M:\School\SGBD\Lab1v2\Lab1v2\bin\Debug\Lab1v2.exe
+M:\School\SGBD\Lab1v2\Lab1v2\bin\Debug\Lab1v2.pdb
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.csprojAssemblyReference.cache
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.Form1.resources
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.Properties.Resources.resources
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.csproj.GenerateResource.cache
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.csproj.CoreCompileInputs.cache
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.exe
+M:\School\SGBD\Lab1v2\Lab1v2\obj\Debug\Lab1v2.pdb

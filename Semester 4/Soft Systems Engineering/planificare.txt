@@ -1,0 +1,13 @@
+Iteratia 1:
+-CRUD shows
+-Update seats
+-Select seats
+
+
+Iteratia 2:
+-Login
+-Start day
+
+Iteratia 3:
+-Reserve
+-UI

@@ -1,0 +1,16 @@
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\DbUtils.dll.config
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\DbUtils.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\DbUtils.pdb
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\EntityFramework.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\EntityFramework.SqlServer.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\MySql.Data.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\System.Data.SQLite.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\System.Data.SQLite.EF6.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\System.Data.SQLite.Linq.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\EntityFramework.xml
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\EntityFramework.SqlServer.xml
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\System.Data.SQLite.xml
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\bin\Debug\System.Data.SQLite.dll.config
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\obj\Debug\ConnectionUtils.csprojResolveAssemblyReference.cache
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\obj\Debug\DbUtils.dll
+d:\Adriana_octombrie\SCOALA\CURSURI\2017-2018\MPP\Curs2_BD\Tasks\DbUtils\obj\Debug\DbUtils.pdb

@@ -1,0 +1,19 @@
+.mainFrame {
+    border: 1px solid #555;
+    background-color: azure;
+    width: fit-content;
+}
+
+.textDiv{
+    float: left;
+    width: 200px;
+}
+
+
+
+.photoDiv{
+    display: inline;
+    width: 200px;
+}
+
+

@@ -1,0 +1,9 @@
+28 Feb 2019 12:31:49,907 [main] Main 10 main - test message
+28 Feb 2019 12:47:29,233 [Test worker] MainTest 21 main - Tested main method.
+28 Feb 2019 12:47:29,245 [Test worker] SumTest 23 makeSum - Tested makeSum method.
+28 Feb 2019 12:49:21,455 [Test worker] MainTest 21 main - Tested main method.
+28 Feb 2019 12:49:21,469 [Test worker] SumTest 23 makeSum - Tested makeSum method.
+28 Feb 2019 12:59:09,556 [main] Main 10 main - test message
+28 Feb 2019 13:00:37,098 [main] Main 10 main - test message
+28 Feb 2019 13:01:17,423 [Test worker] MainTest 21 main - Tested main method.
+28 Feb 2019 13:01:17,435 [Test worker] SumTest 23 makeSum - Tested makeSum method.

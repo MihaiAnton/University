@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <util:properties id="jdbcProps" location="bd.config"/>
+
+
+    <bean id="AthleteRepo" class="Repository.AthleteRepo">
+        <constructor-arg value="athletes"></constructor-arg>
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+    <bean id="CredentialsRepo" class="Repository.CredentialsRepo">
+        <constructor-arg value="credentials"></constructor-arg>
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+
+    <bean id="RaceTypeRepo" class="Repository.RaceTypeRepo">
+        <constructor-arg value="racetypes"></constructor-arg>
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+    <bean id="RegistrationsRepo" class="Repository.RegistrationRepo">
+        <constructor-arg value="credentials"></constructor-arg>
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+    <bean id="UsersRepo" class="Repository.UserRepo">
+        <constructor-arg value="users"></constructor-arg>
+        <constructor-arg ref="jdbcProps"></constructor-arg>
+    </bean>
+
+</beans>

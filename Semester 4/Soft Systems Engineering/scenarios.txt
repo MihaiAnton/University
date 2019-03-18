@@ -1,0 +1,51 @@
+Reservation scenario
+
+Actor: user
+
+Succes scenario:
+	-1: User logs into the app
+	-2: User refreshes the seats status
+	-3: User select the seats
+	-4: User submits his request
+
+Alternative scenario:
+	-1a: User inputs wrong data -> user login screen reloads
+	-2a: Server connection unavailable -> "Try again screen"
+	-3a: Unavailable seats are selected -> Error message
+	-4a: Some seats have already been reserved while user's decision -> Error message and back to step 2
+
+
+--------------------------------------------------------------------------------------------------------------
+Manager data change scenario
+
+Actor: Manager
+
+Succes scenario:
+	-1: Manager logs into the app
+	-2: Manager adds/modifies/deletes today's show
+	-3: Updates show status
+
+Alternative scenario:
+	-1a: Manager inputs wrong login data -> login screen reloads
+	-2a: Error changing the database -> "Try again screen"
+	-2b: Input wrong data for a show -> Validation error, reloads screen
+	-3a: Error loading -> try again screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

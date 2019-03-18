@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class MainTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class MainTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; MainTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.239s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">main</td>
+<td class="success">1.239s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2019-02-28 13:01:16,764 Test worker DEBUG Apache Log4j Core 2.11.2 initializing configuration XmlConfiguration[location=M:\School\MPP\build\resources\main\log4j2.xml]
+2019-02-28 13:01:16,786 Test worker DEBUG Installed 1 script engine
+2019-02-28 13:01:17,130 Test worker DEBUG Oracle Nashorn version: 11.0.1, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2019-02-28 13:01:17,141 Test worker DEBUG PluginManager 'Core' found 117 plugins
+2019-02-28 13:01:17,142 Test worker DEBUG PluginManager 'Level' found 0 plugins
+2019-02-28 13:01:17,149 Test worker DEBUG PluginManager 'Lookup' found 13 plugins
+2019-02-28 13:01:17,152 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-02-28 13:01:17,167 Test worker TRACE TypeConverterRegistry initializing.
+2019-02-28 13:01:17,171 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+2019-02-28 13:01:17,188 Test worker DEBUG PatternLayout$Builder(pattern=&quot;%d{DATE} [%t] %class{36} %L %M - %msg%xEx%n&quot;, PatternSelector=null, Configuration(M:\School\MPP\build\resources\main\log4j2.xml), Replace=null, charset=&quot;null&quot;, alwaysWriteExceptions=&quot;null&quot;, disableAnsi=&quot;null&quot;, noConsoleNoAnsi=&quot;null&quot;, header=&quot;null&quot;, footer=&quot;null&quot;)
+2019-02-28 13:01:17,189 Test worker DEBUG PluginManager 'Converter' found 44 plugins
+2019-02-28 13:01:17,211 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2019-02-28 13:01:17,223 Test worker DEBUG FileAppender$Builder(fileName=&quot;logs/app.log&quot;, append=&quot;null&quot;, locking=&quot;null&quot;, advertise=&quot;null&quot;, advertiseUri=&quot;null&quot;, createOnDemand=&quot;null&quot;, filePermissions=&quot;null&quot;, fileOwner=&quot;null&quot;, fileGroup=&quot;null&quot;, bufferedIo=&quot;null&quot;, bufferSize=&quot;null&quot;, immediateFlush=&quot;null&quot;, ignoreExceptions=&quot;null&quot;, PatternLayout(%d{DATE} [%t] %class{36} %L %M - %msg%xEx%n), name=&quot;FisierLog&quot;, Configuration(M:\School\MPP\build\resources\main\log4j2.xml), Filter=null, ={})
+2019-02-28 13:01:17,229 Test worker DEBUG Starting FileManager logs/app.log
+2019-02-28 13:01:17,230 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2019-02-28 13:01:17,233 Test worker DEBUG createAppenders(={FisierLog})
+2019-02-28 13:01:17,234 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-02-28 13:01:17,243 Test worker DEBUG createAppenderRef(ref=&quot;FisierLog&quot;, level=&quot;null&quot;, Filter=null)
+2019-02-28 13:01:17,245 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-02-28 13:01:17,246 Test worker DEBUG createAppenderRef(ref=&quot;Console&quot;, level=&quot;null&quot;, Filter=null)
+2019-02-28 13:01:17,247 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2019-02-28 13:01:17,249 Test worker DEBUG createLogger(additivity=&quot;null&quot;, level=&quot;TRACE&quot;, includeLocation=&quot;null&quot;, ={FisierLog, Console}, ={}, Configuration(M:\School\MPP\build\resources\main\log4j2.xml), Filter=null)
+2019-02-28 13:01:17,254 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2019-02-28 13:01:17,256 Test worker DEBUG createLoggers(={root})
+2019-02-28 13:01:17,258 Test worker ERROR Unable to locate appender &quot;Console&quot; for logger config &quot;root&quot;
+2019-02-28 13:01:17,259 Test worker DEBUG Configuration XmlConfiguration[location=M:\School\MPP\build\resources\main\log4j2.xml] initialized
+2019-02-28 13:01:17,259 Test worker DEBUG Starting configuration XmlConfiguration[location=M:\School\MPP\build\resources\main\log4j2.xml]
+2019-02-28 13:01:17,260 Test worker DEBUG Started configuration XmlConfiguration[location=M:\School\MPP\build\resources\main\log4j2.xml] OK.
+2019-02-28 13:01:17,262 Test worker TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@2e9e2eeb...
+2019-02-28 13:01:17,264 Test worker TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2019-02-28 13:01:17,264 Test worker TRACE DefaultConfiguration stopping root LoggerConfig.
+2019-02-28 13:01:17,265 Test worker TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2019-02-28 13:01:17,266 Test worker TRACE DefaultConfiguration stopping remaining Appenders.
+2019-02-28 13:01:17,266 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2019-02-28 13:01:17,266 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2019-02-28 13:01:17,267 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+2019-02-28 13:01:17,269 Test worker TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2019-02-28 13:01:17,269 Test worker TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2019-02-28 13:01:17,271 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@2e9e2eeb OK
+2019-02-28 13:01:17,373 Test worker TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@512f4cda
+2019-02-28 13:01:17,376 Test worker TRACE Reregistering context (1/1): '6e5e91e4' org.apache.logging.log4j.core.LoggerContext@7b40d4fc
+2019-02-28 13:01:17,378 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4'
+2019-02-28 13:01:17,379 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=StatusLogger'
+2019-02-28 13:01:17,380 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=ContextSelector'
+2019-02-28 13:01:17,382 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=Loggers,name=*'
+2019-02-28 13:01:17,383 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=Appenders,name=*'
+2019-02-28 13:01:17,384 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=AsyncAppenders,name=*'
+2019-02-28 13:01:17,385 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=AsyncLoggerRingBuffer'
+2019-02-28 13:01:17,385 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=6e5e91e4,component=Loggers,name=*,subtype=RingBuffer'
+2019-02-28 13:01:17,388 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=6e5e91e4
+2019-02-28 13:01:17,393 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=6e5e91e4,component=StatusLogger
+2019-02-28 13:01:17,396 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=6e5e91e4,component=ContextSelector
+2019-02-28 13:01:17,399 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=6e5e91e4,component=Loggers,name=
+2019-02-28 13:01:17,401 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=6e5e91e4,component=Appenders,name=FisierLog
+2019-02-28 13:01:17,405 Test worker TRACE Using default SystemClock for timestamps.
+2019-02-28 13:01:17,406 Test worker DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2019-02-28 13:01:17,406 Test worker TRACE Using DummyNanoClock for nanosecond timestamps.
+2019-02-28 13:01:17,407 Test worker DEBUG Reconfiguration complete for context[name=6e5e91e4] at URI M:\School\MPP\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@7b40d4fc) with optional ClassLoader: null
+2019-02-28 13:01:17,408 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+2019-02-28 13:01:17,410 Test worker DEBUG LoggerContext[name=6e5e91e4, org.apache.logging.log4j.core.LoggerContext@7b40d4fc] started OK.
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Warning: Nashorn engine is planned to be removed from a future JDK release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8</a> at 28 Feb 2019, 13:01:17</p>
+</div>
+</div>
+</body>
+</html>

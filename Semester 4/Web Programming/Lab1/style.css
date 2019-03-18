@@ -1,0 +1,16 @@
+#nameForm {
+     background-color: azure;
+     max-width: 400px;
+     border-radius: 25px;
+ }
+
+#nameForm section {
+    display: table;
+}
+
+#nameForm nav {
+    float: left;
+    height: 80px;
+    padding: 20px;
+}
+

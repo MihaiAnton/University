@@ -1,0 +1,81 @@
+11 Mar 2019 18:04:19,046 [main] Repository.DataBaseRepo 114 logError - Error loading driver in database repo: users
+11 Mar 2019 18:11:45,220 [main] Repository.DataBaseRepo 114 logError - Error loading driver in database repo: users
+11 Mar 2019 18:14:10,643 [main] Repository.DataBaseRepo 114 logError - Error loading driver in database repo: users com.mysql.jdbc.Driver
+11 Mar 2019 18:20:16,238 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: userssave method.
+11 Mar 2019 18:25:45,830 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: userssave method.
+11 Mar 2019 18:27:26,069 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: userssave method.
+11 Mar 2019 18:28:09,311 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: usersupdate method
+11 Mar 2019 18:29:35,467 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: usersupdate method
+11 Mar 2019 18:30:00,224 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: usersupdate method
+11 Mar 2019 18:31:41,213 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: usersupdate method
+11 Mar 2019 18:34:25,811 [main] Repository.DataBaseRepo 109 logInfo - Updated entity in table users
+11 Mar 2019 18:34:54,170 [main] Repository.DataBaseRepo 109 logInfo - Deleted in table users
+11 Mar 2019 18:35:18,188 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table users
+11 Mar 2019 18:36:26,590 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: userssave method.
+11 Mar 2019 18:36:26,606 [main] Repository.DataBaseRepo 109 logInfo - Found data in table users
+11 Mar 2019 18:36:44,275 [main] Repository.DataBaseRepo 109 logInfo - Found data in table users
+11 Mar 2019 19:14:56,085 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table credentials
+11 Mar 2019 19:28:43,827 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: raceTypessave method.
+11 Mar 2019 19:32:06,598 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table raceTypes
+11 Mar 2019 19:50:39,148 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 19:51:12,113 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 19:53:28,817 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 19:57:31,456 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 19:59:45,049 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:00:57,081 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:02:05,408 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:02:36,656 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:02:55,931 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:05:35,898 [main] Repository.DataBaseRepo 109 logInfo - Found data in table athletes
+11 Mar 2019 20:06:44,172 [main] Repository.DataBaseRepo 109 logInfo - Found data in table athletes
+11 Mar 2019 20:07:34,532 [main] Repository.DataBaseRepo 109 logInfo - Found data in table athletes
+11 Mar 2019 20:07:48,280 [main] Repository.DataBaseRepo 109 logInfo - Found data in table athletes
+11 Mar 2019 20:08:18,109 [main] Repository.DataBaseRepo 109 logInfo - Found data in table athletes
+11 Mar 2019 20:09:38,470 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: athletessave method.
+11 Mar 2019 20:11:38,769 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table athletes
+11 Mar 2019 20:37:25,470 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: registrationssave method.
+11 Mar 2019 20:38:30,683 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table registrations
+14 Mar 2019 12:46:38,064 [main] Repository.DataBaseRepo 114 logError - SQLException in database repo: registrationssave method.
+14 Mar 2019 12:47:24,327 [main] Repository.DataBaseRepo 109 logInfo - Save entity in table registrations
+15 Mar 2019 12:02:33,635 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:04:10,909 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:04:55,318 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:05:23,157 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:05:23,179 [main] Repository.DataBaseRepo 110 logInfo - Save entity in table athletes
+15 Mar 2019 12:08:22,422 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:08:22,434 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:08:22,452 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:08:22,455 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:08:54,217 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:09:03,804 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:09:13,303 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:09:31,219 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:09:40,350 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:09:42,609 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:11:10,694 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:12:02,470 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:13:20,306 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:14:03,849 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:14:08,921 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:14:54,487 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:16:08,010 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: racetypesfind one method
+15 Mar 2019 12:16:13,977 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:17:18,332 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:17:23,602 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:17:27,627 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:19:14,801 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:19:14,813 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:19:14,817 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:19:14,832 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: registrationsfind one method
+15 Mar 2019 12:19:14,835 [main] Repository.DataBaseRepo 110 logInfo - Save entity in table registrations
+15 Mar 2019 12:19:14,837 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:19:14,841 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: registrationsfind one method
+15 Mar 2019 12:19:14,844 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: registrationssave method.
+15 Mar 2019 12:20:36,613 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:20:36,625 [main] Repository.DataBaseRepo 110 logInfo - Found data in table athletes
+15 Mar 2019 12:20:36,628 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:20:36,645 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: registrationsfind one method
+15 Mar 2019 12:20:36,650 [main] Repository.DataBaseRepo 110 logInfo - Save entity in table registrations
+15 Mar 2019 12:20:36,652 [main] Repository.DataBaseRepo 110 logInfo - Found data in table racetypes
+15 Mar 2019 12:20:36,655 [main] Repository.DataBaseRepo 115 logError - SQLException in database repo: registrationsfind one method
+15 Mar 2019 12:20:36,656 [main] Repository.DataBaseRepo 110 logInfo - Save entity in table registrations

@@ -1,0 +1,9 @@
+M:\School\MPP\CSProject\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+M:\School\MPP\CSProject\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+M:\School\MPP\CSProject\Project\Project\bin\Debug\Project.exe.config
+M:\School\MPP\CSProject\Project\Project\bin\Debug\Project.exe
+M:\School\MPP\CSProject\Project\Project\bin\Debug\Project.pdb
+M:\School\MPP\CSProject\Project\Project\bin\Debug\MySql.Data.dll
+M:\School\MPP\CSProject\Project\Project\obj\Debug\Project.csproj.CopyComplete
+M:\School\MPP\CSProject\Project\Project\obj\Debug\Project.exe
+M:\School\MPP\CSProject\Project\Project\obj\Debug\Project.pdb
