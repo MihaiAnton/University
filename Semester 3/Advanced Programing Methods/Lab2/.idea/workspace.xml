@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/main.java" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f992cd40-acd0-4c9c-8e7a-c1ced9c8d6cb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-995209495">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JAVA/main" value="1" />
+          <entry key="Task" value="4" />
+          <entry key="java" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="18" />
+          <entry key="UML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="7722" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7722" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="349" column="49" selection-start-line="349" selection-start-column="49" selection-end-line="349" selection-end-column="49" />
+              <folding>
+                <element signature="class#main#0" />
+                <element signature="method#main#0;class#main#0" />
+                <element signature="method#Task#0;class#Task#0" />
+                <element signature="method#getDescription#0;class#Task#0" />
+                <element signature="method#setDescription#0;class#Task#0" />
+                <element signature="method#setTaskId#0;class#Task#0" />
+                <element signature="class#MessageTask#0" />
+                <element signature="method#MessageTask#0;class#MessageTask#0" />
+                <element signature="method#execute#0;class#MessageTask#0" />
+                <element signature="method#toString#0;class#MessageTask#0" />
+                <element signature="class#AbstractSorter#0" />
+                <element signature="method#AbstractSorter#0;class#AbstractSorter#0" />
+                <element signature="class#BubbleSort#0" />
+                <element signature="method#BubbleSort#0;class#BubbleSort#0" />
+                <element signature="method#sort#0;class#BubbleSort#0" />
+                <element signature="class#QuickSort#0" />
+                <element signature="method#sort#0;class#QuickSort#0" />
+                <element signature="method#qSort#0;class#QuickSort#0" />
+                <element signature="class#MessageTaskTester#0" />
+                <element signature="method#test#0;class#MessageTaskTester#0" />
+                <element signature="method#GenericContainer#0;class#GenericContainer#0" />
+                <element signature="method#add#0;class#GenericContainer#0" />
+                <element signature="method#remove#0;class#QueueContainer#0" />
+                <element signature="class#Strategy#0" />
+                <element signature="class#Factory#0" />
+                <element signature="class#TaskRunner#0" />
+                <element signature="method#executeOneTask#0;class#StrategyTaskRunner#0" />
+                <element signature="method#executeAll#0;class#StrategyTaskRunner#0" />
+                <element signature="class#StrategyTaskRunnerTest#0" />
+                <element signature="method#test#0;class#StrategyTaskRunnerTest#0" />
+                <element signature="class#AbstractTaskRunner#0" />
+                <element signature="class#PrinterTaskRunner#0" />
+                <element signature="method#executeOneTask#0;class#PrinterTaskRunner#0" />
+                <element signature="method#executeAll#0;class#PrinterTaskRunner#0" />
+                <element signature="method#executeAll#0;class#DelayTaskRunner#0" />
+                <element signature="class#AbstractTaskRunnerTest#0" />
+                <element signature="method#test#0;class#AbstractTaskRunnerTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
+    <option name="width" value="1720" />
+    <option name="height" value="1449" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539685512053" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.main" />
+      <module name="lab2" />
+      <option name="PROGRAM_PARAMETERS" value="FIFO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f992cd40-acd0-4c9c-8e7a-c1ced9c8d6cb" name="Default Changelist" comment="" />
+      <created>1539080814795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539080814795</updated>
+      <workItem from="1539080818311" duration="341000" />
+      <workItem from="1539182139726" duration="6000" />
+      <workItem from="1539190109478" duration="6580000" />
+      <workItem from="1539329910148" duration="9315000" />
+      <workItem from="1539339740657" duration="634000" />
+      <workItem from="1539679158148" duration="4019000" />
+      <workItem from="1540033435851" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20943000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13624161" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32885906" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" type="SLIDING" weight="0.33020133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" type="SLIDING" weight="0.39527798" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977912" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32977912" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" type="SLIDING" weight="0.32977912" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" type="SLIDING" weight="0.39527798" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977912" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/main.Task">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>main.Task</OriginalElement>
+          <nodes>
+            <node x="753.0" y="412.0">main.Strategy</node>
+            <node x="-83.5" y="-229.0">main.AbstractTaskRunner</node>
+            <node x="644.5" y="-103.0">main.StackContainer</node>
+            <node x="48.99999999999997" y="-61.0">main.PrinterTaskRunner</node>
+            <node x="533.0" y="412.0">main.StrategyTaskRunnerTest</node>
+            <node x="546.75" y="-250.0">main.GenericContainer</node>
+            <node x="75.0" y="-418.0">main.TaskRunner</node>
+            <node x="230.0" y="282.0">main.SortingTask</node>
+            <node x="-204.0" y="-61.0">main.DelayTaskRunner</node>
+            <node x="550.0" y="204.0">main.BubbleSort</node>
+            <node x="99.25" y="80.0">main.Task</node>
+            <node x="184.5" y="-251.0">main.StrategyTaskRunner</node>
+            <node x="714.0" y="204.5">main.QuickSort</node>
+            <node x="457.5" y="-103.0">main.QueueContainer</node>
+            <node x="-204.0" y="513.0">main.TaskContainerFactory</node>
+            <node x="559.25" y="-418.0">main.Container</node>
+            <node x="312.0" y="412.0">main.AbstractTaskRunnerTest</node>
+            <node x="-204.0" y="412.0">main.Factory</node>
+            <node x="-204.0" y="271.0">main.MessageTask</node>
+            <node x="85.0" y="412.0">main.MessageTaskTester</node>
+            <node x="638.75" y="80.0">main.AbstractSorter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="main.MessageTask" target="main.Task">
+              <point x="0.0" y="-48.0" />
+              <point x="3.0" y="246.0" />
+              <point x="142.25" y="246.0" />
+              <point x="-43.0" y="70.5" />
+            </edge>
+            <edge source="main.DelayTaskRunner" target="main.AbstractTaskRunner">
+              <point x="0.0" y="-48.0" />
+              <point x="-87.5" y="-86.0" />
+              <point x="-21.5" y="-86.0" />
+              <point x="-62.0" y="48.0" />
+            </edge>
+            <edge source="main.StrategyTaskRunner" target="main.TaskRunner">
+              <point x="0.0" y="-70.0" />
+              <point x="298.5" y="-276.0" />
+              <point x="216.75" y="-276.0" />
+              <point x="47.25" y="58.5" />
+            </edge>
+            <edge source="main.BubbleSort" target="main.AbstractSorter">
+              <point x="0.0" y="-37.0" />
+              <point x="622.0" y="179.0" />
+              <point x="677.5" y="179.0" />
+              <point x="-38.75" y="37.0" />
+            </edge>
+            <edge source="main.QueueContainer" target="main.GenericContainer">
+              <point x="0.0" y="-59.0" />
+              <point x="541.0" y="-128.0" />
+              <point x="589.75" y="-128.0" />
+              <point x="-43.0" y="48.5" />
+            </edge>
+            <edge source="main.AbstractTaskRunner" target="main.TaskRunner">
+              <point x="0.0" y="-48.0" />
+              <point x="40.5" y="-276.0" />
+              <point x="122.25" y="-276.0" />
+              <point x="-47.25" y="58.5" />
+            </edge>
+            <edge source="main.PrinterTaskRunner" target="main.AbstractTaskRunner">
+              <point x="0.0" y="-48.0" />
+              <point x="168.5" y="-86.0" />
+              <point x="102.5" y="-86.0" />
+              <point x="62.0" y="48.0" />
+            </edge>
+            <edge source="main.StackContainer" target="main.GenericContainer">
+              <point x="0.0" y="-59.0" />
+              <point x="724.5" y="-128.0" />
+              <point x="675.75" y="-128.0" />
+              <point x="43.0" y="48.5" />
+            </edge>
+            <edge source="main.GenericContainer" target="main.Container">
+              <point x="0.0" y="-48.5" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="main.QuickSort" target="main.AbstractSorter">
+              <point x="0.0" y="-36.5" />
+              <point x="810.5" y="179.0" />
+              <point x="755.0" y="179.0" />
+              <point x="38.75" y="37.0" />
+            </edge>
+            <edge source="main.SortingTask" target="main.Task">
+              <point x="0.0" y="-37.0" />
+              <point x="367.5" y="246.0" />
+              <point x="228.25" y="246.0" />
+              <point x="43.0" y="70.5" />
+            </edge>
+            <edge source="main.TaskContainerFactory" target="main.Factory">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="22.0" y="106.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>main</OriginalElement>
+          <nodes>
+            <node x="624.0" y="942.0">main.Strategy</node>
+            <node x="121.5" y="189.0">main.AbstractTaskRunner</node>
+            <node x="657.5" y="382.0">main.StackContainer</node>
+            <node x="0.0" y="380.0">main.PrinterTaskRunner</node>
+            <node x="761.0" y="942.0">main.StrategyTaskRunnerTest</node>
+            <node x="742.5" y="168.0">main.GenericContainer</node>
+            <node x="276.75" y="0.0">main.TaskRunner</node>
+            <node x="0.0" y="745.0">main.SortingTask</node>
+            <node x="0.0" y="1066.0">main.BubbleSort</node>
+            <node x="254.0" y="380.0">main.DelayTaskRunner</node>
+            <node x="232.5" y="521.0">main.Task</node>
+            <node x="384.5" y="167.0">main.StrategyTaskRunner</node>
+            <node x="162.0" y="1066.5">main.QuickSort</node>
+            <node x="836.5" y="382.0">main.QueueContainer</node>
+            <node x="751.0" y="622.0">main.TaskContainerFactory</node>
+            <node x="754.5" y="0.0">main.Container</node>
+            <node x="979.0" y="942.0">main.AbstractTaskRunnerTest</node>
+            <node x="755.5" y="521.0">main.Factory</node>
+            <node x="293.0" y="712.0">main.MessageTask</node>
+            <node x="0.0" y="1185.0">main.main</node>
+            <node x="398.0" y="942.0">main.MessageTaskTester</node>
+            <node x="86.25" y="942.0">main.AbstractSorter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="main.MessageTask" target="main.Task">
+              <point x="0.0" y="-92.5" />
+              <point x="499.5" y="687.0" />
+              <point x="360.75" y="687.0" />
+              <point x="42.75" y="70.5" />
+            </edge>
+            <edge source="main.StrategyTaskRunner" target="main.TaskRunner">
+              <point x="0.0" y="-81.5" />
+              <point x="498.5" y="142.0" />
+              <point x="417.75" y="142.0" />
+              <point x="47.0" y="58.5" />
+            </edge>
+            <edge source="main.DelayTaskRunner" target="main.AbstractTaskRunner">
+              <point x="0.0" y="-48.0" />
+              <point x="369.0" y="355.0" />
+              <point x="303.75" y="355.0" />
+              <point x="60.75" y="59.5" />
+            </edge>
+            <edge source="main.BubbleSort" target="main.AbstractSorter">
+              <point x="0.0" y="-37.0" />
+              <point x="71.0" y="1041.0" />
+              <point x="125.25" y="1041.0" />
+              <point x="-39.0" y="37.0" />
+            </edge>
+            <edge source="main.QueueContainer" target="main.GenericContainer">
+              <point x="0.0" y="-37.0" />
+              <point x="919.0" y="357.0" />
+              <point x="870.75" y="357.0" />
+              <point x="42.75" y="82.0" />
+            </edge>
+            <edge source="main.AbstractTaskRunner" target="main.TaskRunner">
+              <point x="0.0" y="-59.5" />
+              <point x="243.0" y="142.0" />
+              <point x="323.75" y="142.0" />
+              <point x="-47.0" y="58.5" />
+            </edge>
+            <edge source="main.GenericContainer" target="main.Container">
+              <point x="0.0" y="-82.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="main.StackContainer" target="main.GenericContainer">
+              <point x="0.0" y="-37.0" />
+              <point x="737.0" y="357.0" />
+              <point x="785.25" y="357.0" />
+              <point x="-42.75" y="82.0" />
+            </edge>
+            <edge source="main.PrinterTaskRunner" target="main.AbstractTaskRunner">
+              <point x="0.0" y="-48.0" />
+              <point x="117.0" y="355.0" />
+              <point x="182.25" y="355.0" />
+              <point x="-60.75" y="59.5" />
+            </edge>
+            <edge source="main.QuickSort" target="main.AbstractSorter">
+              <point x="0.0" y="-36.5" />
+              <point x="257.5" y="1041.0" />
+              <point x="203.25" y="1041.0" />
+              <point x="39.0" y="37.0" />
+            </edge>
+            <edge source="main.SortingTask" target="main.Task">
+              <point x="0.0" y="-59.5" />
+              <point x="136.5" y="687.0" />
+              <point x="275.25" y="687.0" />
+              <point x="-42.75" y="70.5" />
+            </edge>
+            <edge source="main.TaskContainerFactory" target="main.Factory">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="325.0" y="237.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="349" column="49" selection-start-line="349" selection-start-column="49" selection-end-line="349" selection-end-column="49" />
+          <folding>
+            <element signature="class#main#0" />
+            <element signature="method#main#0;class#main#0" />
+            <element signature="method#Task#0;class#Task#0" />
+            <element signature="method#getDescription#0;class#Task#0" />
+            <element signature="method#setDescription#0;class#Task#0" />
+            <element signature="method#setTaskId#0;class#Task#0" />
+            <element signature="class#MessageTask#0" />
+            <element signature="method#MessageTask#0;class#MessageTask#0" />
+            <element signature="method#execute#0;class#MessageTask#0" />
+            <element signature="method#toString#0;class#MessageTask#0" />
+            <element signature="class#AbstractSorter#0" />
+            <element signature="method#AbstractSorter#0;class#AbstractSorter#0" />
+            <element signature="class#BubbleSort#0" />
+            <element signature="method#BubbleSort#0;class#BubbleSort#0" />
+            <element signature="method#sort#0;class#BubbleSort#0" />
+            <element signature="class#QuickSort#0" />
+            <element signature="method#sort#0;class#QuickSort#0" />
+            <element signature="method#qSort#0;class#QuickSort#0" />
+            <element signature="class#MessageTaskTester#0" />
+            <element signature="method#test#0;class#MessageTaskTester#0" />
+            <element signature="method#GenericContainer#0;class#GenericContainer#0" />
+            <element signature="method#add#0;class#GenericContainer#0" />
+            <element signature="method#remove#0;class#QueueContainer#0" />
+            <element signature="class#Strategy#0" />
+            <element signature="class#Factory#0" />
+            <element signature="class#TaskRunner#0" />
+            <element signature="method#executeOneTask#0;class#StrategyTaskRunner#0" />
+            <element signature="method#executeAll#0;class#StrategyTaskRunner#0" />
+            <element signature="class#StrategyTaskRunnerTest#0" />
+            <element signature="method#test#0;class#StrategyTaskRunnerTest#0" />
+            <element signature="class#AbstractTaskRunner#0" />
+            <element signature="class#PrinterTaskRunner#0" />
+            <element signature="method#executeOneTask#0;class#PrinterTaskRunner#0" />
+            <element signature="method#executeAll#0;class#PrinterTaskRunner#0" />
+            <element signature="method#executeAll#0;class#DelayTaskRunner#0" />
+            <element signature="class#AbstractTaskRunnerTest#0" />
+            <element signature="method#test#0;class#AbstractTaskRunnerTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lab2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

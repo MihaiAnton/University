@@ -1,0 +1,4 @@
+1229|Mihai|221|mihai@scs.ro|teacher1
+1228|Geo|221|geo@scs.ro|teacher2
+1225|Gabi|221|gabi@scs.ro|teacher3
+1223|Roberta|221|roberta@scs.ro|teacher1

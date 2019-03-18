@@ -1,0 +1,5 @@
+Tema: 1
+Predata in saptamana: 5
+Deadline: 6
+Feedback: Gooood.
+

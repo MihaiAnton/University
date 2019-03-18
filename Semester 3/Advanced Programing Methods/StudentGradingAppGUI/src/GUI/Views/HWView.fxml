@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<GridPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeworkController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <StackPane prefHeight="219.0" prefWidth="300.0" GridPane.rowSpan="3">
+            <children>
+                <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                        <TableColumn fx:id="idc" editable="false" prefWidth="39.0" sortable="false" text="Id" >
+                            <cellValueFactory><PropertyValueFactory property="id" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="descc" editable="false" prefWidth="102.0" sortable="false" text="Description" >
+                            <cellValueFactory><PropertyValueFactory property="description" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="tweekc" editable="false" prefWidth="127.0" sortable="false" text="Target week" >
+                            <cellValueFactory><PropertyValueFactory property="targetWeek" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="dweekc" editable="false" prefWidth="86.0" sortable="false" text="Deadline" >
+                            <cellValueFactory><PropertyValueFactory property="deadlineWeek" />
+                            </cellValueFactory>
+                        </TableColumn>
+
+                </columns>
+                </TableView>
+            </children>
+        </StackPane>
+        <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <children>
+                <VBox prefHeight="291.0" prefWidth="280.0">
+                    <children>
+                        <HBox prefHeight="54.0" prefWidth="280.0">
+                            <children>
+                                <Label prefHeight="60.0" prefWidth="107.0" text="   Target week:" />
+                                <TextField fx:id="tweek" prefHeight="50.0" prefWidth="206.0" />
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="58.0" prefWidth="280.0">
+                            <children>
+                                <Label prefHeight="51.0" prefWidth="110.0" text="     Deadline:" />
+                                <TextField fx:id="dweek" prefHeight="65.0" prefWidth="217.0">
+                           <tooltip>
+                              <Tooltip text="Empty Tooltip" />
+                           </tooltip>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu></TextField>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+            <children>
+                <HBox prefHeight="76.0" prefWidth="280.0">
+                    <children>
+                        <Label prefHeight="74.0" prefWidth="263.0" text="    Homework menu">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox prefHeight="58.0" prefWidth="280.0">
+                    <children>
+                        <Label prefHeight="53.0" prefWidth="90.0" text="          Id:" />
+                        <TextField fx:id="id" prefHeight="65.0" prefWidth="193.0" />
+                    </children>
+                </HBox>
+                <HBox prefHeight="57.0" prefWidth="280.0">
+                    <children>
+                        <Label prefHeight="52.0" prefWidth="118.0" text="    Description:" />
+                        <TextField fx:id="desc" prefHeight="59.0" prefWidth="220.0" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <children>
+                <HBox prefHeight="46.0" prefWidth="280.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#addHandle" prefHeight="32.0" prefWidth="77.0" text="Add" />
+                        <Button mnemonicParsing="false" onAction="#updateHandle" prefHeight="31.0" prefWidth="67.0" text="Update" />
+                        <Button mnemonicParsing="false" onAction="#deleteHandle" prefHeight="33.0" prefWidth="71.0" text="Delete" />
+                        <Button mnemonicParsing="false" onAction="#clearHandle" prefHeight="32.0" prefWidth="67.0" text="Clear" />
+                    </children>
+                </HBox>
+            <ImageView fitHeight="144.0" fitWidth="151.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../unnamed.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </VBox>
+      <Box />
+      <PointLight color="CHARTREUSE" lightOn="true" opacity="0.5" />
+    </children>
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+    </padding>
+</GridPane>

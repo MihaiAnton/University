@@ -1,0 +1,10 @@
+192.168.1.0/24
+A 10
+B 5
+C 25
+D 50
+E 5
+
+en
+configure terminal
+router rip 2

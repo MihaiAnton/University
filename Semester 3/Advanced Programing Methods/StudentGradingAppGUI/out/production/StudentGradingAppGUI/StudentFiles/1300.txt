@@ -1,0 +1,5 @@
+Tema: 5
+Predata in saptamana: 8
+Deadline: 7
+Feedback: qwertyui
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TestController">
+   <children>
+      <TableView fx:id="table" layoutX="4.0" layoutY="71.0" prefHeight="325.0" prefWidth="369.0">
+        <columns>
+          <TableColumn prefWidth="63.0" text="C1">
+              <cellValueFactory><PropertyValueFactory property="id" />
+              </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="74.0" text="C2">
+              <cellValueFactory><PropertyValueFactory property="group" />
+              </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="77.0" text="Column X">
+                <cellValueFactory><PropertyValueFactory property="name" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="70.0" text="Column X">
+                <cellValueFactory><PropertyValueFactory property="teacher" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="91.0" text="Column X">
+                <cellValueFactory><PropertyValueFactory property="mail" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <Text fill="#3b69a4" layoutX="189.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TITLE" textAlignment="CENTER" wrappingWidth="174.13671875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <VBox layoutX="384.0" layoutY="71.0" prefHeight="200.0" prefWidth="85.0">
+         <children>
+            <Label prefHeight="35.0" prefWidth="88.0" text="Label1:" textAlignment="CENTER" />
+            <Label prefHeight="40.0" prefWidth="90.0" text="Label2:" />
+            <Label prefHeight="42.0" prefWidth="91.0" text="Label3:" />
+            <Label prefHeight="41.0" prefWidth="95.0" text="Label4:" />
+            <Label prefHeight="42.0" prefWidth="86.0" text="Label5:" />
+         </children>
+      </VBox>
+      <VBox layoutX="469.0" layoutY="71.0" prefHeight="200.0" prefWidth="119.0">
+         <children>
+            <TextField fx:id="tf1" prefHeight="25.0" prefWidth="119.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.13671875" />
+            <TextField fx:id="tf2" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="116.13671875" />
+            <TextField fx:id="tf3" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="112.13671875" />
+            <TextField fx:id="tf4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="118.13671875" />
+            <TextField fx:id="tf5" />
+         </children>
+      </VBox>
+      <HBox layoutX="384.0" layoutY="282.0" prefHeight="25.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleAdd" prefHeight="25.0" prefWidth="52.0" text="Add" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="20.0" />
+            <Button mnemonicParsing="false" onAction="#handleUpdate" prefHeight="25.0" prefWidth="59.0" text="Update" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="20.0" />
+            <Button mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+         </children>
+      </HBox>
+      <Button onAction="#handleClear" layoutX="384.0" layoutY="328.0" mnemonicParsing="false" text="Clear" />
+   </children>
+</AnchorPane>

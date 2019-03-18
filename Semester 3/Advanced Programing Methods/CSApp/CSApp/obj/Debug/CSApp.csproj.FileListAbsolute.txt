@@ -1,0 +1,7 @@
+M:\School\Metode Avansate de Programare\CSApp\CSApp\bin\Debug\CSApp.exe.config
+M:\School\Metode Avansate de Programare\CSApp\CSApp\bin\Debug\CSApp.exe
+M:\School\Metode Avansate de Programare\CSApp\CSApp\bin\Debug\CSApp.pdb
+M:\School\Metode Avansate de Programare\CSApp\CSApp\obj\Debug\CSApp.csprojAssemblyReference.cache
+M:\School\Metode Avansate de Programare\CSApp\CSApp\obj\Debug\CSApp.csproj.CoreCompileInputs.cache
+M:\School\Metode Avansate de Programare\CSApp\CSApp\obj\Debug\CSApp.exe
+M:\School\Metode Avansate de Programare\CSApp\CSApp\obj\Debug\CSApp.pdb

@@ -1,0 +1,15 @@
+11,DELL,  G3 3579,gaming,4999.99
+12,HP, ProBook 6470b,home,943.81
+13,ASUS, A542UA-DM570T,business,2399.99
+14,ASUS, ViVoBook X541UA-DM1358,home,1599.99
+15,Fujitsu,LifeBook,business,910.62
+1,ASUS, A541NA-GO180, home,999.99
+2,ASUS, ROG GL503VD-FY064,gaming,3999.99
+3,HP, G6, business,1899.99
+4,HP, OMEN 15-dc0010nq,gaming,36749.0
+5,Lenovo, Legion Y520-15IKBN, gaming,2599.0
+6,DELL, Inspiron,business,2099.99
+7,Lenovo, IdeaPAd,home,1499.99
+8,MacBook, Air,business,4399.99
+9,Acer, Aspire,home,1799.99
+10,ASUS, FX504GE-E4139,gaming,3699.0

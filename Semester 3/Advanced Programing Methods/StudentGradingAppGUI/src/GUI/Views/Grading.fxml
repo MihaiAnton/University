@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TableView fx:id="table" prefHeight="167.0" prefWidth="350.0" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.rowSpan="4">
+        <columns>
+          <TableColumn prefWidth="122.0" text="StudentId">
+              <cellValueFactory><PropertyValueFactory property="studId" />
+              </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="110.0" text="HwId">
+              <cellValueFactory><PropertyValueFactory property="homeworkId" />
+              </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="112.0" text="Name">
+                <cellValueFactory><PropertyValueFactory property="studName" />
+                </cellValueFactory>
+            </TableColumn>
+
+            <TableColumn prefWidth="111.0" text="Group">
+                <cellValueFactory><PropertyValueFactory property="studGroup" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="101.0" text="Grade">
+                <cellValueFactory><PropertyValueFactory property="grade" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="241.0" text="Teacher">
+                <cellValueFactory><PropertyValueFactory property="studTeacher" />
+                </cellValueFactory>
+            </TableColumn>
+
+        </columns>
+      </TableView>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <VBox prefHeight="54.0" prefWidth="110.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="114.0" text="HwId" textAlignment="CENTER" />
+                  <ChoiceBox fx:id="homeworkCb" prefHeight="25.0" prefWidth="85.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="71.0" prefWidth="91.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="123.0" text="StudentId" />
+                  <TextField fx:id="studentField" prefHeight="25.0" prefWidth="100.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="102.0" text="Group" />
+                  <ChoiceBox fx:id="groupCB" prefWidth="150.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="filterButton" alignment="CENTER" mnemonicParsing="false" onAction="#filterHandle" prefHeight="46.0" prefWidth="179.0" text="Filter" textAlignment="JUSTIFY" />
+         </children>
+      </HBox>
+      <Label prefHeight="54.0" prefWidth="208.0" text="Grading Menu" GridPane.columnIndex="1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

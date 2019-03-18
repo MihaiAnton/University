@@ -1,0 +1,16 @@
+Tema: 1
+Predata in saptamana: 6
+Deadline: 6
+Feedback: good
+
+
+Tema: 1
+Predata in saptamana: 6
+Deadline: 6
+Feedback: ok
+
+Tema: 1
+Predata in saptamana: 6
+Deadline: 7
+Feedback: ok
+

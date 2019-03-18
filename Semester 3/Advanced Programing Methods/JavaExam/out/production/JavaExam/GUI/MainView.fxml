@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <Button layoutX="86.0" layoutY="126.0" mnemonicParsing="false" onAction="#printMaxMonth" prefHeight="120.0" prefWidth="177.0" text="Max month" />
+      <Button layoutX="335.0" layoutY="126.0" mnemonicParsing="false" onAction="#printLaptopList" prefHeight="120.0" prefWidth="177.0" text="Laptop list" />
+      <Button layoutX="245.0" layoutY="295.0" mnemonicParsing="false" onAction="#openRaportScene" prefHeight="70.0" prefWidth="114.0" text="Raport" />
+      <Button layoutX="424.0" layoutY="299.0" mnemonicParsing="false" onAction="#printGaming" prefHeight="64.0" prefWidth="127.0" text="Gaming laptops" />
+   </children>
+</AnchorPane>
