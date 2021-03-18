@@ -1,4 +1,4 @@
-# University-Courses
+# University-Courses - UBB BSc
 Algorithms implementation, labs and school work.
 
 <h1> Year 1 </h1>
